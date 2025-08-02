@@ -1,12 +1,10 @@
 h1 {
     color: black;
-    font-family: 'Courier New', Courier, monospace;
     font-size: 30px;
 }
 
 h2 {
     color: black;
-    font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
 }
 
@@ -50,6 +48,7 @@ img {
     padding: 10px;
     border: 1px black solid;
     background-color: beige;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .home-container-1 {
@@ -84,3 +83,77 @@ img {
     font-family: 'Courier New', Courier, monospace;
 }
 
+.layers-container {
+    padding: 25px;
+    margin: 25px 10% 25px 10%;
+    /*background-color: lightgray;*/
+    background-image: -webkit-radial-gradient(white, black);
+    border-radius: 25px;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.layer1 {
+    color: white;
+    background-image: url(https://static.wikia.nocookie.net/shaniverse/images/8/8c/AetherCavern2.jpg/revision/latest?cb=20200928003412);
+    background-position: center;
+    background-size: cover;
+    padding: 15px;
+    border-radius: 25px;
+    margin: 10px 0 10px 0;
+}
+
+.layer2 {
+    color: white;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR01R4VlWCP70XQEKDcuD0-y91JsWXBra1fhA&s);
+    background-position: center;
+    background-size: cover;
+    padding: 15px;
+    border-radius: 25px;
+    margin: 10px 0 10px 0;
+}
+
+.layer3 {
+    color: white;
+    background-image: url(https://media.licdn.com/dms/image/v2/D4D12AQGXqFq-9fjwSw/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1729177188850?e=2147483647&v=beta&t=PrpnZnJqqhdAt_Y7y3zhJ5MG9NiDwIpYfklQAFk4G3I);
+    background-position: center;
+    background-size: cover;
+    padding: 15px;
+    border-radius: 25px;
+    margin: 10px 0 10px 0;
+}
+
+.layer4 {
+    color: white;
+    background-image: url(https://www.datocms-assets.com/132613/1724440968-creditgreenpeace-greatbearrainforest-spruceinterior-2.jpg?auto=format&fit=crop&crop=focalpoint&fp-x=0.5&fp-y=0.5&ar=670:550&w=1024&h=841);
+    background-position: center;
+    background-size: cover;
+    padding: 15px;
+    border-radius: 25px;
+    margin: 10px 0 10px 0;
+}
+
+.layer5 {
+    color: white;
+    background-image: url(https://images.unsplash.com/photo-1657598339759-fd1432d833f0?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2xvdWRzJTIwaW4lMjBza3l8ZW58MHx8MHx8fDA%3D);
+    background-position: center;
+    background-size: cover;
+    padding: 15px;
+    border-radius: 25px;
+    margin: 10px 0 10px 0;
+}
+
+#layer-name {
+    background-color: black;
+    margin-left: 40%;
+    margin-right: 40%;
+    padding: 5px;
+    border-radius: 25px;
+}
+
+#layer-name:hover {
+    background-color: white;
+    color: black;
+}
