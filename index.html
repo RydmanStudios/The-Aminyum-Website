@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>IART - Intergalactic Aminyum Research Team - Home</title>
+    <link rel="shortcut icon" href="Impossible-Triangle-10.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+</head>
+<link rel="stylesheet" href="main.css">
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">IART - Integalactic Aminyum Research Team</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Info.html">Info</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Archives.html">Archives</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Imagery.html">Imagery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Entities.html">Entities</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Layers.html">Layers</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Join.html">Join</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Contact Us.html">Contact Us</a>
+        </li>
+        <!--<li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>-->
+        <!--<li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li>-->
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<div class="home-container-1">
+  <h1>Home of the largest Aminyum archive on the internet</h1>
+  <hr>
+</div>
+<div class="home-container-1">
+  <h2>Please consider donating! This is a completely volunteer ran and operated organization.</h2>
+  <p><i>Every dollar helps!</i></p>
+  <a href="Donate.html" id="report-button">Donate</a>
+</div>
+<div class="home-container-2">
+  <h2>Latest Discovery</h2>
+  <div id="latest-discovery"></div>
+</div>
+<div class="home-container-3">
+  <h2>Have you seen this place?</h2>
+  <p>Please report it to us if you have.</p>
+  <img src="Screenshot 2024-08-27 9.23.51 PM.png" alt="image of the beginning subversion of the Aminyum">
+  <img src="Aminyum - The Beginning - 1.png" alt="image of the beginning subversion of the Aminyum" id="home-image-2">
+  <br>
+  <div class="button-cont">
+    <a href="" id="report-button">Report a sighting</a>
+  </div>
+</div>
+<div class="home-container-1">
+  <h1>Join our team today!</h1>
+  <a href="Join.html" id="report-button">Learn More</a>
+</div>
+<div class="home-container-1">
+  <h3>Current Aminyum Danger Level:</h3>
+  <div id="current-danger"></div>
+  <br>
+  <p><i>1 is least dangerous, and 10 is most dangerous.</i></p>
+</div>
+<div class="footer">
+  <p>Copyright 2038. All rights reserved, okay?</p>
+  <a href="Contact Us.html">Contact Us</a>
+  <br>
+  <a href="Join.html">Join our Team</a>
+  <br>
+  <br>
+  <p>This site is not powered by Goggle Sites.</p>
+</div>
+</body>
+<script>
+  latest_discovery = "Latest discovery so far non functional";
+  current_danger = 5
+  document.getElementById("latest-discovery").innerHTML = "<p>" + latest_discovery + "</p>"
+  document.getElementById("current-danger").innerHTML = "<p>" + current_danger + "</p>"
+</script>
+</html>
